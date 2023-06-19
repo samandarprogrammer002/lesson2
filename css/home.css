@@ -1,0 +1,74 @@
+.navbar {
+    background-color: #282A35;
+    text-align: center;
+    font-size: 25px;
+    height: 80px;
+    word-spacing: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    line-height: 80px;    
+}
+.home {
+    background-color: #04AA6D;
+}
+.home h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    margin-top: 1px;
+}
+ .home h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #FFC0C7;
+ }
+
+.home h5 {
+    text-align: center;
+    font-size: 25px;
+    color:white ;
+    padding-top: 20px;
+    margin-top: 1px;
+}
+
+.html {
+    text-align: center;
+    background-color: #D9EEE1;
+    margin: 2pxpx;
+}
+
+.html h1 {
+    font-size: 60px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+ 
+.html h3 {
+    font-size: 30px;
+}
+ 
+.html button {
+    font-size: 20px;
+}
+.btn {
+   background-color: #04AA6D;
+   color: white; 
+}
+ 
+.btn-1 {
+    background-color: #FFF4A3;
+    color: black;
+}
+
+.btn-2 {
+    background-color: #282A35;
+    color: white;
+}
+
+.btn-3 {
+    background-color: #FFC0C7;
+    color: black;
+}

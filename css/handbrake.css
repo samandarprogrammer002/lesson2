@@ -1,0 +1,469 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Roboto";
+ }
+ button {
+   border: none;
+   cursor: pointer;
+ }
+ .container {
+   width: 1120px;
+   margin: 0 auto;
+ }
+ header {
+   padding: 41px 0;
+   height: 643px;
+   background: rgba(19, 145, 206, 0.7);
+ }
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .navbar-logo a {
+   display: flex;
+   align-items: center;
+ }
+ a {
+   text-decoration: none;
+ }
+ .navbar-logo span {
+   margin-left: 1.34px;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24.6829px;
+   line-height: 29px;
+   color: #25468a;
+ }
+ .nav-menus {
+   display: flex;
+   align-items: center;
+ }
+ .navbar-list {
+   display: flex;
+   list-style-type: none;
+ }
+ .nav-link {
+   margin: 0 32px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #3d3d3f;
+   transition: 0.5s;
+   /* -webkit-transition: 0.5s;
+   -moz-transition: 0.5s;
+   -ms-transition: 0.5s;
+   -o-transition: 0.5s; */
+ }
+ .nav-link:hover {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #ffffff;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ .nav-btn button {
+   box-sizing: border-box;
+   border-radius: 24px;
+   padding: 9px 18px;
+ }
+ #home {
+   padding-top: 143px;
+ }
+ .home-container {
+   display: flex;
+   justify-content: space-between;
+ }
+ .home-left h1 {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 92px;
+   line-height: 108px;
+   color: #25468a;
+ }
+ .home-left h2 {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 38px;
+   color: #3b4a6b;
+ }
+ .home-left p {
+   padding-top: 8px;
+   padding-bottom: 42px;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 23px;
+ 
+   color: #3b4a6b;
+ }
+ .home-left button {
+   width: 263.53px;
+   height: 51px;
+   left: 160px;
+   top: 454px;
+ 
+   background: #f7ba0e;
+   border-radius: 26px;
+ }
+ .home-right {
+   margin-top: -50px;
+ }
+ main {
+   padding: 176px 0px;
+   background-color: #e9f5ff;
+ }
+ .top-btn {
+   display: flex;
+   justify-content: space-between;
+ }
+ .top-btn button {
+   box-sizing: border-box;
+   background: #1391ce;
+   box-shadow: 0px 10px 15px rgba(31, 100, 133, 0.1),
+     0px 4px 6px rgba(0, 0, 0, 0.05);
+   border-radius: 8px;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 26px;
+   text-align: center;
+   letter-spacing: 0.04em;
+   color: #ffffff;
+   padding: 69px 46px;
+ }
+ .center {
+   padding-top: 63px;
+   display: flex;
+   justify-content: center;
+ }
+ .center-header h1 {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 121.3%;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.01em;
+   color: #1391ce;
+ }
+ .rectangle {
+   padding-left: 80px;
+   padding-top: 15.83px;
+   padding-bottom: 96.17px;
+
+ }
+ .rectangle canvas {
+   width: 160px;
+   height: 8px;
+   background: #f7ba0e;
+ }
+ .boards-row {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+ .board-1 {
+   width: 552px;
+   height: 408px;
+ }
+ .board-1 img {
+   width: 552px;
+   height: 402.171px;
+ }
+ .board-2 {
+   margin-top: 128px;
+   width: 552px;
+   height: 402.171px;
+ }
+ .board-2 h1 {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.01em;
+   text-transform: uppercase;
+   color: #25468a;
+ }
+ .board-2 span {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.01em;
+   color: #1391ce;
+ }
+ .board-2 p {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.02em;
+   color: #4f4f4f;
+ }
+ .board-3 {
+   margin-top: 128px;
+   width: 552px;
+   height: 402.171px;
+ }
+ .board-3 h1 {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.01em;
+   text-transform: uppercase;
+   color: #25468a;
+ }
+ .board-3 span {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.01em;
+   color: #1391ce;
+ }
+ 
+ .board-3 h2 {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.02em;
+   color: #1391ce;
+ }
+ 
+ .ticks {
+   display: flex;
+   flex-direction: column;
+   width: 20px;
+   height: 20px;
+ }
+ .texts {
+   display: flex;
+   flex-direction: column;
+   padding-left: 38px;
+ }
+ .texts p {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 134.3%;
+   letter-spacing: 0.02em;
+   color: #4f4f4f;
+ }
+ .tick-1 {
+   padding-top: 21px;
+   padding-bottom: 12px;
+ }
+ .text-1 {
+   padding-bottom: 9.5px;
+ }
+ .tick-2 {
+   padding-bottom: 53px;
+ }
+ .text-2 {
+   padding-bottom: 9px;
+ }
+ .tick-3 {
+   padding-bottom: 32px;
+ }
+ .text-3 {
+   padding-bottom: 10px;
+ }
+ .board-4 {
+   margin-top: 128px;
+   width: 552px;
+   height: 402.171px;
+ }
+ .board-4 img {
+   width: 552px;
+   height: 402.171px;
+ }
+ .board-5 {
+   margin-top: 128px;
+   width: 552px;
+   height: 402.171px;
+ }
+ .board-5 img {
+   width: 552px;
+   height: 402.171px;
+ }
+ .board-6 {
+   margin-top: 128px;
+   width: 552px;
+   height: 402.171px;
+ }
+ .board-6 h1 {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.01em;
+   text-transform: uppercase;
+   color: #25468a;
+ }
+ .board-6 span {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.01em;
+   color: #1391ce;
+ }
+ .texts2 {
+   display: flex;
+   flex-direction: column;
+   padding-left: 38px;
+   padding-top: 10px;
+ }
+ .texts2 p {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 134.3%;
+   letter-spacing: 0.02em;
+   color: #4f4f4f;
+ }
+ .ticks2 {
+   display: flex;
+   flex-direction: column;
+   width: 20px;
+   height: 20px;
+ }
+ .tick2-1 {
+   padding-top: 34px;
+   padding-bottom: 12px;
+ }
+
+ .tick2-2 {
+   padding-bottom: 12px;
+ }
+ .text2-2 {
+   padding-bottom: 8px;
+ }
+ .tick2-3 {
+   padding-bottom: 12px;
+ }
+ .text2-3 {
+   padding-bottom: 8px;
+ }
+ .tick2-4 {
+   padding-bottom: 12px;
+ }
+ .text2-4 {
+   padding-bottom: 8px;
+ }
+ .tick2-5 {
+   padding-bottom: 12px;
+ }
+ .text2-5 {
+   padding-bottom: 8px;
+ }
+ .tick2-6 {
+   padding-bottom: 36px;
+ }
+ .text2-6 {
+   padding-bottom: 8px;
+ }
+ .tick2-7 {
+   padding-bottom: 36px;
+ }
+ .text2-7 {
+   padding-bottom: 8px;
+ }
+ footer {
+   width: 100%;
+   height: 144px;
+   background-color: #1391ce;
+ }
+ .line canvas {
+   box-sizing: border-box;
+   background-color: #e3e3e3;
+   width: 100%;
+   height: 1px;
+   margin-top: 32px;
+ }
+ .footer-sides {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 21px;
+ }
+ .footer-left {
+   display: flex;
+   justify-content: space-between;
+   width: 436px;
+ }
+ .footer-left span {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.01em;
+ }
+ .left-2 {
+   color: white;
+ }
+ .footer-right {
+   display: flex;
+   /* justify-content: space-between; */
+   width: 187px;
+ }
+ .footer-right span {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 134.3%;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.01em;
+ }
+ .right-2 {
+   color: white;
+ }
